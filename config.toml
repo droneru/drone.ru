@@ -1,7 +1,7 @@
 baseurl = "http://drone.ru/"
 languageCode = "ru"
 title = "Teamlead: API команды разработки"
-theme = "blackburn"
+theme = "default"
 author = "Andrey Pavlenko"
 #copyright = "&copy; 2016. All rights reserved."
 canonifyurls = true
