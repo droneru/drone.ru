@@ -1,0 +1,64 @@
+baseurl = "http://drone.ru/"
+languageCode = "ru"
+title = "Teamlead: API команды разработки"
+theme = "blackburn"
+author = "Andrey Pavlenko"
+#copyright = "&copy; 2016. All rights reserved."
+canonifyurls = true
+paginate = 10
+
+[indexes]
+  tag = "tags"
+  topic = "topics"
+
+[params]
+  subtitle = "Changelog в картинках"
+  brand = "<span style='color: #ffc66d;'>Drone</span><span style='color: #6897BB;'>.ru();</span>"
+  googleAnalytics = "UA-96759973-1"
+  disqus = "droneru"
+  # CSS name for highlight.js
+  highlightjs = "androidstudio"
+  dateFormat = "02.01.2006"
+
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "Главная"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 1
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
+    name = "Записки"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 10
+    identifier = "post"
+    url = "/post/"
+#   [[menu.main]]
+#     name = "О блоге"
+#     pre = "<i class='fa fa-user fa-fw'></i>"
+#     weight = 20
+#     identifier = "about"
+#     url = "/about/"
+  # [[menu.main]]
+  #   name = "Контакты"
+  #   pre = "<i class='fa fa-phone fa-fw'></i>"
+  #   weight = 4
+  #   url = "/contact/"
+  # [[menu.main]]
+  #   name = "app"
+  #   pre = "<i class='fa fa-code fa-fw'></i>"
+  #   weight = 3
+  #   url = "/app/"
+  # [[menu.main]]
+  #   name = "now"
+  #   pre = "<i class='fa fa-star fa-fw'></i>"
+  #   weight = 3
+  #   url = "/now/"
+[social]
+  twitter = "dronerus"
+  facebook = "droneru"
+  linkedin = "drone"
+  github = "droneru"
+  lastfm = "droneru"
+  keybase = "droneru"
