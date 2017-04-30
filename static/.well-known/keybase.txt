@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/droneru
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://drone.ru
+  * I am droneru (https://keybase.io/droneru) on keybase.
+  * I have a public key ASB6FcupooAdWJphi2-6JaEsxUN7n2H_yZX8xV1R8o4aZgo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01207a15cba9a2801d589a618b6fba25a12cc5437b9f61ffc995fcc55d51f28e1a660a",
+            "host": "keybase.io",
+            "kid": "01207a15cba9a2801d589a618b6fba25a12cc5437b9f61ffc995fcc55d51f28e1a660a",
+            "uid": "aa36d2a967b06f6c6aa494929c780619",
+            "username": "droneru"
+        },
+        "service": {
+            "hostname": "drone.ru",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.21"
+    },
+    "ctime": 1493583089,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1493583060,
+        "hash": "45b4200d8c514bc2ad66f3cbf1f02e5ade575ee6340629882e3a6eca787ab5c61f89c3a449eba20a2819d9d5d8f27c69a88833cc2ed9e56bff4f814693744dd5",
+        "seqno": 1046388
+    },
+    "prev": "042601fa3776eac258a1e8fe48108fb44e657dbed9be26df065ba3917e148afa",
+    "seqno": 18,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgehXLqaKAHViaYYtvuiWhLMVDe59h/8mV/MVdUfKOGmYKp3BheWxvYWTFAvB7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwN2ExNWNiYTlhMjgwMWQ1ODlhNjE4YjZmYmEyNWExMmNjNTQzN2I5ZjYxZmZjOTk1ZmNjNTVkNTFmMjhlMWE2NjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwN2ExNWNiYTlhMjgwMWQ1ODlhNjE4YjZmYmEyNWExMmNjNTQzN2I5ZjYxZmZjOTk1ZmNjNTVkNTFmMjhlMWE2NjBhIiwidWlkIjoiYWEzNmQyYTk2N2IwNmY2YzZhYTQ5NDkyOWM3ODA2MTkiLCJ1c2VybmFtZSI6ImRyb25lcnUifSwic2VydmljZSI6eyJob3N0bmFtZSI6ImRyb25lLnJ1IiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4yMSJ9LCJjdGltZSI6MTQ5MzU4MzA4OSwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDkzNTgzMDYwLCJoYXNoIjoiNDViNDIwMGQ4YzUxNGJjMmFkNjZmM2NiZjFmMDJlNWFkZTU3NWVlNjM0MDYyOTg4MmUzYTZlY2E3ODdhYjVjNjFmODljM2E0NDllYmEyMGEyODE5ZDlkNWQ4ZjI3YzY5YTg4ODMzY2MyZWQ5ZTU2YmZmNGY4MTQ2OTM3NDRkZDUiLCJzZXFubyI6MTA0NjM4OH0sInByZXYiOiIwNDI2MDFmYTM3NzZlYWMyNThhMWU4ZmU0ODEwOGZiNDRlNjU3ZGJlZDliZTI2ZGYwNjViYTM5MTdlMTQ4YWZhIiwic2Vxbm8iOjE4LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQKedCHlgfhu24pT3EaUZzbJ/QJX8aJiexXOM+g/7sSBkkQGFl56hO6Ocl3X+Was2WQY/03vcAguDBA2miyvWlgeoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCDTA13ZxMHyvHmC5C6JT6JUTzb27refXedf45gyuxHUjqN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/droneru
+
+==================================================================
