@@ -1,11 +1,16 @@
 <article>
   <header>
     <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-
     {{ partial "post_meta.html" . }}
 
   </header>
-
+  {{ if isset .Params "banner" }}
+  <a href="{{ .Permalink }}" class="thumbnail">
+      <span style="background-image:url({{ .Params.banner | absURL }})" alt="{{ .Title }}" class="thumbnail-image"></span>
+  </a>
+  {{ else }}
+  <!-- без картинки может потом дефолтную вкорячу-->
+  {{ end }}
   <p>
   {{ .Summary }}
   </p>

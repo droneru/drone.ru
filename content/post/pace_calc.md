@@ -1,8 +1,10 @@
 +++
-date = "2017-03-26"
+date = "2017-03-26T16:56:43+02:00"
 description = "насколько быстро бегать на тренировках"
 draft = false
 title = "Тренировки по бегу"
+banner = "banners/run.jpg"
+tags = ["sport"]
 +++
 
 ![бег](https://s3-eu-west-1.amazonaws.com/droneimg/run.jpg)
