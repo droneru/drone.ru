@@ -1,0 +1,15 @@
+{{ define "main" -}}
+<div class="post">
+  <h1>{{ .Title }}</h1>
+  <h2 class="header">{{ .Description }}</h2>
+  <span class="post-date">{{ .Date.Format "02.01.2006" }}</span>
+  {{ .Content }}
+</div>
+
+{{ partial "prev_next_post.html" . }}
+
+{{ if .Site.DisqusShortname -}}
+<h2>Комментарии</h2>
+{{ template "_internal/disqus.html" . }}
+{{- end }}
+{{- end }}

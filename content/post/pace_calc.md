@@ -1,10 +1,10 @@
 +++
 date = "2017-03-26T16:56:43+02:00"
-description = "насколько быстро бегать на тренировках"
+Description = "насколько быстро бегать на тренировках"
 draft = false
 title = "Тренировки по бегу"
 banner = "banners/run.jpg"
-tags = ["sport"]
+Tags = ["sport"]
 +++
 
 ![бег](https://s3-eu-west-1.amazonaws.com/droneimg/run.jpg)
@@ -23,11 +23,9 @@ tags = ["sport"]
 
 Тренировочный темп расчитывается на основе последних результатов соревнований. Не цели на соревнования, важна текущая форма. Сперва нужно пробежать гонку, затем ввести результат в калькулятор и использовать полученный темп для тренировок.
 
-<div id="root"></div>
-<script src="https://code.jquery.com/jquery-3.2.0.min.js" integrity="sha256-JAW99MJVpJBGcbzEuXk4Az05s/XyDdBomFqNlM3ic+I=" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script src="/js/pace_calc.js"></script>
+<iframe src="http://pacecalc.drone.ru" frameborder="0" scrolling="no" width="468px" height="750px" >
+    Ваш браузер не поддерживает iframe
+ </iframe>
 
 Я полагаю, что достаточно бегать три раза в неделю. Один раз длительный бег в лёгком темпе обычно в выходной. Две оставшиеся тренировки: один темповый и один интервальный либо два темповых забега. Если хочется тренироваться больше, то можно добавить 40-60 минут в легком темпе.
 

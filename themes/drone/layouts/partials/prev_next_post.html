@@ -1,0 +1,32 @@
+{{ if or (.Prev) (.Next) }}
+<div class="prev-next-post">
+  <!-- TODO передалать вот это всё в css grid -->
+  <div style="text-align: left;">
+    {{ if .PrevInSection }}
+    <a href="{{ .PrevInSection.Permalink }}"><i class="fa fa-chevron-left"></i></a>
+    {{ end }}
+  </div>
+  <div>
+    {{ if .PrevInSection }}
+    <nav class="prev">
+      <a href="{{ .PrevInSection.Permalink }}">{{ .PrevInSection.Title }}</a>
+    </nav>
+    {{ end }}
+  </div>
+  <div>
+    &nbsp;
+  </div>
+  <div>
+    {{ if .NextInSection }}
+    <nav class="next" style="text-align: right;">
+      <a href="{{ .NextInSection.Permalink }}">{{ .NextInSection.Title }}</a>
+    </nav>
+    {{ end }}
+  </div>
+  <div style="text-align: right;">
+    {{ if .NextInSection }}
+    <a href="{{ .NextInSection.Permalink }}"><i class="fa fa-chevron-right"></i></a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}
