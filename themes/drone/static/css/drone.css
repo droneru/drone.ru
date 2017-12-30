@@ -19,4 +19,6 @@ h2.header {
   border-radius: 50%;
   display: block;
   margin-right: auto;
+  display: block;
+    margin: 0 auto;
 }
